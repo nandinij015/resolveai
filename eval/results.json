@@ -1,0 +1,67 @@
+{
+  "claims": 500,
+  "seed": 7,
+  "extraction_accuracy": 1.0,
+  "policy_rule_accuracy": 0.9963,
+  "discrepancy_precision": 1.0,
+  "discrepancy_recall": 1.0,
+  "risk_signal_precision": 1.0,
+  "risk_signal_recall": 1.0,
+  "evidence_citation_accuracy": 1.0,
+  "unsupported_recommendation_rate": 0.0,
+  "recommendation_accuracy": 0.98,
+  "auto_reject_count": 0,
+  "clean_claim_false_flag_rate": 0.0,
+  "policy_rule_errors": [
+    [
+      "CLM-0000",
+      "EXCLUSION",
+      false
+    ],
+    [
+      "CLM-0073",
+      "EXCLUSION",
+      false
+    ],
+    [
+      "CLM-0074",
+      "EXCLUSION",
+      false
+    ],
+    [
+      "CLM-0174",
+      "EXCLUSION",
+      false
+    ],
+    [
+      "CLM-0247",
+      "EXCLUSION",
+      false
+    ],
+    [
+      "CLM-0253",
+      "EXCLUSION",
+      false
+    ],
+    [
+      "CLM-0264",
+      "EXCLUSION",
+      false
+    ],
+    [
+      "CLM-0289",
+      "EXCLUSION",
+      false
+    ],
+    [
+      "CLM-0300",
+      "EXCLUSION",
+      false
+    ],
+    [
+      "CLM-0361",
+      "EXCLUSION",
+      false
+    ]
+  ]
+}

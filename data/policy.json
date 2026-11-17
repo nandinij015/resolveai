@@ -1,0 +1,14 @@
+{"policy_id":"POL-001","period":{"start":"2026-01-01","end":"2026-12-31"},"limit":10000,"deductible":500,"report_within_days":30,
+"clauses":[
+{"id":"C-1.1","kind":"period","text":"Policy POL-001 is in force from 2026-01-01 to 2026-12-31."},
+{"id":"C-2.1","kind":"coverage","text":"Covered perils: theft, fire, water damage, collision.","perils":["theft","fire","water_damage","collision"]},
+{"id":"C-3.1","kind":"exclusion","text":"Excluded: wear and tear, gradual deterioration, and rust."},
+{"id":"C-3.2","kind":"exclusion","text":"Excluded: intentional damage or acts committed by the policyholder."},
+{"id":"C-3.3","kind":"exclusion","text":"Excluded: loss while property is used for commercial rental or business."},
+{"id":"C-4.1","kind":"limit","text":"Maximum payable per claim is 10000 less a deductible of 500."},
+{"id":"C-5.1","kind":"condition","text":"Loss must be reported to the insurer within 30 days of the date of loss."},
+{"id":"C-6.1","kind":"documents","peril":"theft","required":["invoice","police_report"],"text":"Theft claims require an invoice and a police report."},
+{"id":"C-6.2","kind":"documents","peril":"collision","required":["invoice","police_report","photo_report"],"text":"Collision claims require an invoice, a police report and a photo report."},
+{"id":"C-6.3","kind":"documents","peril":"fire","required":["invoice"],"text":"Fire claims require an invoice."},
+{"id":"C-6.4","kind":"documents","peril":"water_damage","required":["invoice"],"text":"Water damage claims require an invoice."}
+]}
